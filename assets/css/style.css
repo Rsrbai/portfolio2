@@ -51,3 +51,25 @@ h1 {
     margin-left: 10%;
 }
 
+.result-area {
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.result-area > p {
+    font-family: Nunito, sans-serif;
+    font-size: 50px;
+}
+
+.action-message {
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+#action-message {
+    font-family: Nunito, sans-serif;
+    font-size: 50px;
+}
+
