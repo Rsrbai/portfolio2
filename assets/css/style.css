@@ -1,1 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: blueviolet;
+}
+h1 {
+    text-align: center;
+    padding: 20px;
+    font-family: Nunito, sans-serif;
+    background-color: aliceblue;
+}
+
+.score-area {
+    
+}
