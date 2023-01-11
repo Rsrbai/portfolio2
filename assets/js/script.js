@@ -1,14 +1,3 @@
-const userScore = 0;
-const computerScore = 0;
-const userScore_span = document.getElementById("user-score");
-const computerScore_span = document.getElementById("computer-score");
-const scoreBoard_div = document.querySelector(".result");
-const rockBtn = document.getElementById("r")
-const paperBtn = document.getElementById("p")
-const scissorsBtn = document.getElementById("s")
-const lizardBtn = document.getElementById("l")
-const spockBtn = document.getElementById("sp")
-
 document.addEventListener("DOMContentLoaded", function() {
     let buttons = document.getElementsByTagName("button");
 
