@@ -16,7 +16,7 @@ h1 {
     background-color: aliceblue;
 }
 
-.score-area {
+.score-board {
     border: 3px solid white;
     width: 20%;
     margin: 20px auto;
@@ -46,13 +46,13 @@ h1 {
     right: -20px;
 }
 
-.result-area {
+.result {
     text-align: center;
     padding: 20px;
     color: white;
 }
 
-.result-area > p {
+.result > p {
     font-family: Nunito, sans-serif;
     font-size: 50px;
 }
@@ -68,12 +68,8 @@ h1 {
     font-size: 50px;
 }
 
-.game-area {
+.choices {
     margin-left: 20%;
 }
 
-.choices::after {
-    content: attr(data-type);
-    font-size: 15px;
-    color: black;
-}
+
