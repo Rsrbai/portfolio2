@@ -54,6 +54,7 @@ function game(userChoice) {
     
     if (userChoice === compChoice) {
         console.log("its a tie");
+        resultTie();
     } else if (userChoice === "r") {
         if (compChoice === "s") {
             console.log("you win");
@@ -112,7 +113,7 @@ function game(userChoice) {
             actionMessageSp();
             increaseScore();
         } else if (compChoice === "s") {
-            console.log("you win");
+            console.log("you win")
             actionMessageSp();
             increaseScore();
         } else {
@@ -139,18 +140,30 @@ function increaseCompScore() {
  * Action message informing of their pick and winning
  */
 function actionMessageR() {
+    document.getElementById("resultPara").innerText = "User Wins!!"
     document.getElementById("action-message").innerText = "You picked Rock and won!"
 }
 function actionMessageP() {
+    document.getElementById("resultPara").innerText = "User Wins!!"
     document.getElementById("action-message").innerText = "You picked Paper and won!"
 }
 function actionMessageS() {
+    document.getElementById("resultPara").innerText = "User Wins!!"
     document.getElementById("action-message").innerText = "You picked Scissors and won!"
 }
 function actionMessageL() {
+    document.getElementById("resultPara").innerText = "User Wins!!"
     document.getElementById("action-message").innerText = "You picked Lizard and won!"
 }
 function actionMessageSp() {
+    document.getElementById("resultPara").innerText = "User Wins!!"
     document.getElementById("action-message").innerText = "You picked Spock and won!"
+}
+/**
+ * Result message informing its a Tie
+ */
+function resultTie() {
+    document.getElementById("resultPara").innerText = "It's a tie!"
+    document.getElementById("action-message").innerText = "You and the computer both picked the same option!"
 }
 
