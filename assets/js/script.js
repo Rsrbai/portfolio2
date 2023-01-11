@@ -46,71 +46,56 @@ function game(userChoice) {
         resultTie();
     } else if (userChoice === "r") {
         if (compChoice === "s") {
-            console.log("you win");
             actionMessageR();
             increaseScore();
         } else if (compChoice === "l") {
-            console.log("you win");
             actionMessageR();
             increaseScore();
         } else {
-            console.log("you lose");
             resultLossR();
             increaseCompScore();
         }
     } else if (userChoice === "p") {
         if (compChoice === "r") {
-            console.log("you win");
             actionMessageP();
             increaseScore();
         } else if (compChoice === "sp") {
-            console.log("you win");
             actionMessageP();
             increaseScore();
         } else {
-            console.log("you lose");
             resultLossP();
             increaseCompScore();
         }
     } else if (userChoice === "s") {
         if (compChoice === "p") {
-            console.log("you win");
             actionMessageS();
             increaseScore();
         } else if (compChoice === "l") {
-            console.log("you win");
             actionMessageS();
             increaseScore();
         } else {
-            console.log("you lose");
             resultLossS();
             increaseCompScore();
         }
     } else if (userChoice === "l") {
         if (compChoice === "sp") {
-            console.log("you win");
             actionMessageL();
             increaseScore();
         } else if (compChoice === "p") {
-            console.log("you win");
             actionMessageL();
             increaseScore();
         } else {
-            console.log("you lose");
             resultLossL()
             increaseCompScore();
         }
     } else if (userChoice === "sp") {
         if (compChoice === "r") {
-            console.log("you win");
             actionMessageSp();
             increaseScore();
         } else if (compChoice === "s") {
-            console.log("you win")
             actionMessageSp();
             increaseScore();
         } else {
-            console.log("you lose");
             resultLossSp();
             increaseCompScore();
         }
