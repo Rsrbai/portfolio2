@@ -34,13 +34,61 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 });
 
-function compChoice() {
+
+/**
+ * Function to choose a random pick for the computer.
+ */
+function computerChoice() {
     let choices = ["r", "p", "s", "l", "sp"];
     let randomNumber = Math.floor(Math.random() * 5);
     return choices[randomNumber];
 }
-console.log(compChoice());
+
 function game(userChoice) {
+    let compChoice = computerChoice(); 
     
+    if (userChoice === compChoice) {
+        console.log("its a tie");
+    } else if (userChoice === "r") {
+        if (compChoice === "s") {
+            console.log("you win");
+        } else if (compChoice === "l") {
+            console.log("you win");
+        } else {
+            console.log("you lose");
+        }
+    } else if (userChoice === "p") {
+        if (compChoice === "r") {
+            console.log("you win");
+        } else if (compChoice === "sp") {
+            console.log("you win");
+        } else {
+            console.log("you lose");
+        }
+    } else if (userChoice === "s") {
+        if (compChoice === "p") {
+            console.log("you win");
+        } else if (compChoice === "l") {
+            console.log("you win");
+        } else {
+            console.log("you lose");
+        }
+    } else if (userChoice === "l") {
+        if (compChoice === "sp") {
+            console.log("you win");
+        } else if (compChoice === "p") {
+            console.log("you win");
+        } else {
+            console.log("you lose");
+        }
+    } else if (userChoice === "sp") {
+        if (compChoice === "r") {
+            console.log("you win");
+        } else if (compChoice === "s") {
+            console.log("you win");
+        } else {
+            console.log("you lose");
+        }
+    }
 }
 
