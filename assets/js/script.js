@@ -57,11 +57,11 @@ function game(userChoice) {
     } else if (userChoice === "r") {
         if (compChoice === "s") {
             console.log("you win");
-            actionMessage();
+            actionMessageR();
             increaseScore();
         } else if (compChoice === "l") {
             console.log("you win");
-            actionMessage();
+            actionMessageR();
             increaseScore();
         } else {
             console.log("you lose");
@@ -70,11 +70,11 @@ function game(userChoice) {
     } else if (userChoice === "p") {
         if (compChoice === "r") {
             console.log("you win");
-            actionMessage();
+            actionMessageP();
             increaseScore();
         } else if (compChoice === "sp") {
             console.log("you win");
-            actionMessage();
+            actionMessageP();
             increaseScore();
         } else {
             console.log("you lose");
@@ -83,11 +83,11 @@ function game(userChoice) {
     } else if (userChoice === "s") {
         if (compChoice === "p") {
             console.log("you win");
-            actionMessage();
+            actionMessageS();
             increaseScore();
         } else if (compChoice === "l") {
             console.log("you win");
-            actionMessage();
+            actionMessageS();
             increaseScore();
         } else {
             console.log("you lose");
@@ -96,11 +96,11 @@ function game(userChoice) {
     } else if (userChoice === "l") {
         if (compChoice === "sp") {
             console.log("you win");
-            actionMessage();
+            actionMessageL();
             increaseScore();
         } else if (compChoice === "p") {
             console.log("you win");
-            actionMessage();
+            actionMessageL();
             increaseScore();
         } else {
             console.log("you lose");
@@ -109,11 +109,11 @@ function game(userChoice) {
     } else if (userChoice === "sp") {
         if (compChoice === "r") {
             console.log("you win");
-            actionMessage();
+            actionMessageSp();
             increaseScore();
         } else if (compChoice === "s") {
             console.log("you win");
-            actionMessage();
+            actionMessageSp();
             increaseScore();
         } else {
             console.log("you lose");
@@ -121,17 +121,36 @@ function game(userChoice) {
         }
     }
 }
-
+/**
+ * Function to increase the score count of the user
+ */
 function increaseScore() {
     let oldScore = parseInt(document.getElementById("user-score").innerText)
     document.getElementById("user-score").innerText = ++oldScore;
 }
-
+/**
+ * Function to increase the score count of the computer
+ */
 function increaseCompScore() {
     let oldScore = parseInt(document.getElementById("computer-score").innerText)
     document.getElementById("computer-score").innerText = ++oldScore;
 }
-
-function actionMessage() {
-    document.getElementById("action-message").innerText = "Congratulations! You Won!"
+/**
+ * Action message informing of their pick and winning
+ */
+function actionMessageR() {
+    document.getElementById("action-message").innerText = "You picked Rock and won!"
 }
+function actionMessageP() {
+    document.getElementById("action-message").innerText = "You picked Paper and won!"
+}
+function actionMessageS() {
+    document.getElementById("action-message").innerText = "You picked Scissors and won!"
+}
+function actionMessageL() {
+    document.getElementById("action-message").innerText = "You picked Lizard and won!"
+}
+function actionMessageSp() {
+    document.getElementById("action-message").innerText = "You picked Spock and won!"
+}
+
