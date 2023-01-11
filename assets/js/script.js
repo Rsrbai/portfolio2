@@ -66,6 +66,7 @@ function game(userChoice) {
             increaseScore();
         } else {
             console.log("you lose");
+            resultLossR();
             increaseCompScore();
         }
     } else if (userChoice === "p") {
@@ -79,6 +80,7 @@ function game(userChoice) {
             increaseScore();
         } else {
             console.log("you lose");
+            resultLossP();
             increaseCompScore();
         }
     } else if (userChoice === "s") {
@@ -92,6 +94,7 @@ function game(userChoice) {
             increaseScore();
         } else {
             console.log("you lose");
+            resultLossS();
             increaseCompScore();
         }
     } else if (userChoice === "l") {
@@ -105,6 +108,7 @@ function game(userChoice) {
             increaseScore();
         } else {
             console.log("you lose");
+            resultLossL()
             increaseCompScore();
         }
     } else if (userChoice === "sp") {
@@ -118,6 +122,7 @@ function game(userChoice) {
             increaseScore();
         } else {
             console.log("you lose");
+            resultLossSp();
             increaseCompScore();
         }
     }
@@ -137,7 +142,7 @@ function increaseCompScore() {
     document.getElementById("computer-score").innerText = ++oldScore;
 }
 /**
- * Action message informing of their pick and winning
+ * Function to show the action message informing of their pick and winning
  */
 function actionMessageR() {
     document.getElementById("resultPara").innerText = "User Wins!!"
@@ -160,10 +165,32 @@ function actionMessageSp() {
     document.getElementById("action-message").innerText = "You picked Spock and won!"
 }
 /**
- * Result message informing its a Tie
+ * Function to show the result message informing its a Tie
  */
 function resultTie() {
     document.getElementById("resultPara").innerText = "It's a tie!"
     document.getElementById("action-message").innerText = "You and the computer both picked the same option!"
 }
-
+/**
+ * Function that shows the computer has won
+ */
+function resultLossR() {
+    document.getElementById("resultPara").innerText = "Computer Wins!!"
+    document.getElementById("action-message").innerText = "You picked Rock and lost!"
+}
+function resultLossP() {
+    document.getElementById("resultPara").innerText = "Computer Wins!!"
+    document.getElementById("action-message").innerText = "You picked Paper and lost!"
+}
+function resultLossS() {
+    document.getElementById("resultPara").innerText = "Computer Wins!!"
+    document.getElementById("action-message").innerText = "You picked Scissors and lost!"
+}
+function resultLossL() {
+    document.getElementById("resultPara").innerText = "Computer Wins!!"
+    document.getElementById("action-message").innerText = "You picked Lizard and lost!"
+}
+function resultLossSp() {
+    document.getElementById("resultPara").innerText = "Computer Wins!!"
+    document.getElementById("action-message").innerText = "You picked Spock and lost!"
+}
