@@ -44,6 +44,11 @@ function computerChoice() {
     return choices[randomNumber];
 }
 
+/**
+ * Function to decide who wins the game by comparing the
+ * users choice to the computers choice.
+ */
+
 function game(userChoice) {
     let compChoice = computerChoice(); 
     
@@ -52,43 +57,81 @@ function game(userChoice) {
     } else if (userChoice === "r") {
         if (compChoice === "s") {
             console.log("you win");
+            actionMessage();
+            increaseScore();
         } else if (compChoice === "l") {
             console.log("you win");
+            actionMessage();
+            increaseScore();
         } else {
             console.log("you lose");
+            increaseCompScore();
         }
     } else if (userChoice === "p") {
         if (compChoice === "r") {
             console.log("you win");
+            actionMessage();
+            increaseScore();
         } else if (compChoice === "sp") {
             console.log("you win");
+            actionMessage();
+            increaseScore();
         } else {
             console.log("you lose");
+            increaseCompScore();
         }
     } else if (userChoice === "s") {
         if (compChoice === "p") {
             console.log("you win");
+            actionMessage();
+            increaseScore();
         } else if (compChoice === "l") {
             console.log("you win");
+            actionMessage();
+            increaseScore();
         } else {
             console.log("you lose");
+            increaseCompScore();
         }
     } else if (userChoice === "l") {
         if (compChoice === "sp") {
             console.log("you win");
+            actionMessage();
+            increaseScore();
         } else if (compChoice === "p") {
             console.log("you win");
+            actionMessage();
+            increaseScore();
         } else {
             console.log("you lose");
+            increaseCompScore();
         }
     } else if (userChoice === "sp") {
         if (compChoice === "r") {
             console.log("you win");
+            actionMessage();
+            increaseScore();
         } else if (compChoice === "s") {
             console.log("you win");
+            actionMessage();
+            increaseScore();
         } else {
             console.log("you lose");
+            increaseCompScore();
         }
     }
 }
 
+function increaseScore() {
+    let oldScore = parseInt(document.getElementById("user-score").innerText)
+    document.getElementById("user-score").innerText = ++oldScore;
+}
+
+function increaseCompScore() {
+    let oldScore = parseInt(document.getElementById("computer-score").innerText)
+    document.getElementById("computer-score").innerText = ++oldScore;
+}
+
+function actionMessage() {
+    document.getElementById("action-message").innerText = "Congratulations! You Won!"
+}
