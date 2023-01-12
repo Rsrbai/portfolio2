@@ -18,4 +18,5 @@ We have a very simple layout with a simple scoreboard for the user and computer,
 
 All bugs found fixed by removing the space in the image name and doing the same for each img link in html.
 
-
+![Image of css validator](assets/images/cssValidator.png)
+![Image of corrected HTML validator](assets/images/htmlValidator2.png)
