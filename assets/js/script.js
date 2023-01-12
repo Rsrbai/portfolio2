@@ -106,66 +106,66 @@ function game(userChoice) {
  * Function to increase the score count of the user
  */
 function increaseScore() {
-    let oldScore = parseInt(document.getElementById("user-score").innerText)
+    let oldScore = parseInt(document.getElementById("user-score").innerText);
     document.getElementById("user-score").innerText = ++oldScore;
 }
 /**
  * Function to increase the score count of the computer
  */
 function increaseCompScore() {
-    let oldScore = parseInt(document.getElementById("computer-score").innerText)
+    let oldScore = parseInt(document.getElementById("computer-score").innerText);
     document.getElementById("computer-score").innerText = ++oldScore;
 }
 /**
  * Function to show the action message informing of their pick and winning
  */
 function actionMessageR() {
-    document.getElementById("resultPara").innerText = "User Wins!!"
-    document.getElementById("action-message").innerText = "You picked Rock and won!"
+    document.getElementById("resultPara").innerText = "User Wins!!";
+    document.getElementById("action-message").innerText = "You picked Rock and won!";
 }
 function actionMessageP() {
-    document.getElementById("resultPara").innerText = "User Wins!!"
-    document.getElementById("action-message").innerText = "You picked Paper and won!"
+    document.getElementById("resultPara").innerText = "User Wins!!";
+    document.getElementById("action-message").innerText = "You picked Paper and won!";
 }
 function actionMessageS() {
-    document.getElementById("resultPara").innerText = "User Wins!!"
-    document.getElementById("action-message").innerText = "You picked Scissors and won!"
+    document.getElementById("resultPara").innerText = "User Wins!!";
+    document.getElementById("action-message").innerText = "You picked Scissors and won!";
 }
 function actionMessageL() {
-    document.getElementById("resultPara").innerText = "User Wins!!"
-    document.getElementById("action-message").innerText = "You picked Lizard and won!"
+    document.getElementById("resultPara").innerText = "User Wins!!";
+    document.getElementById("action-message").innerText = "You picked Lizard and won!";
 }
 function actionMessageSp() {
-    document.getElementById("resultPara").innerText = "User Wins!!"
-    document.getElementById("action-message").innerText = "You picked Spock and won!"
+    document.getElementById("resultPara").innerText = "User Wins!!";
+    document.getElementById("action-message").innerText = "You picked Spock and won!";
 }
 /**
  * Function to show the result message informing its a Tie
  */
 function resultTie() {
-    document.getElementById("resultPara").innerText = "It's a tie!"
-    document.getElementById("action-message").innerText = "You and the computer both picked the same option!"
+    document.getElementById("resultPara").innerText = "It's a tie!";
+    document.getElementById("action-message").innerText = "You and the computer both picked the same option!";
 }
 /**
  * Function that shows the computer has won
  */
 function resultLossR() {
-    document.getElementById("resultPara").innerText = "Computer Wins!!"
-    document.getElementById("action-message").innerText = "You picked Rock and lost!"
+    document.getElementById("resultPara").innerText = "Computer Wins!!";
+    document.getElementById("action-message").innerText = "You picked Rock and lost!";
 }
 function resultLossP() {
-    document.getElementById("resultPara").innerText = "Computer Wins!!"
-    document.getElementById("action-message").innerText = "You picked Paper and lost!"
+    document.getElementById("resultPara").innerText = "Computer Wins!!";
+    document.getElementById("action-message").innerText = "You picked Paper and lost!";
 }
 function resultLossS() {
-    document.getElementById("resultPara").innerText = "Computer Wins!!"
-    document.getElementById("action-message").innerText = "You picked Scissors and lost!"
+    document.getElementById("resultPara").innerText = "Computer Wins!!";
+    document.getElementById("action-message").innerText = "You picked Scissors and lost!";
 }
 function resultLossL() {
-    document.getElementById("resultPara").innerText = "Computer Wins!!"
-    document.getElementById("action-message").innerText = "You picked Lizard and lost!"
+    document.getElementById("resultPara").innerText = "Computer Wins!!";
+    document.getElementById("action-message").innerText = "You picked Lizard and lost!";
 }
 function resultLossSp() {
-    document.getElementById("resultPara").innerText = "Computer Wins!!"
-    document.getElementById("action-message").innerText = "You picked Spock and lost!"
+    document.getElementById("resultPara").innerText = "Computer Wins!!";
+    document.getElementById("action-message").innerText = "You picked Spock and lost!";
 }
