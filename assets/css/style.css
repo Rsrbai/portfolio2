@@ -6,14 +6,15 @@
     box-sizing: border-box;
 }
 body {
-    background-color: rgb(30, 1, 58);
+    background-color: #003b49;
     font-family: Nunito, sans-serif;
 }
 h1 {
     text-align: center;
     padding: 20px;
     font-family: Nunito, sans-serif;
-    background-color: aliceblue;
+    background-color: #f2c75c;
+    color: #003b49;
 }
 
 .score-board {
@@ -29,8 +30,8 @@ h1 {
 }
 
 .badge {
-    background-color: red;
-    color: white;
+    background-color: #f2c75c;
+    color: #003b49;
     font-family: Nunito, sans-serif;
     width: 15%;
 }
