@@ -18,10 +18,10 @@ h1 {
 }
 
 .score-board {
-    border: 3px solid white;
+    border: 3px solid #f2c75c;
     width: 80%;
     margin: 20px auto;
-    color: white;
+    color: #f2c75c;
     font-size: 45px;
     text-align: center;
     padding: 15px 20px;
