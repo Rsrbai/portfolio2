@@ -17,6 +17,8 @@ h1 {
     color: #003b49;
 }
 
+/* Scoreboard area */
+
 .score-board {
     border: 3px solid #f2c75c;
     width: 80%;
@@ -48,8 +50,33 @@ h1 {
     right: -100px;
 }
 
-.choices {
-    
-    
+/* Action message area */
+
+.action-message {
+    text-align: center;
+    color: #f2c75c;
+    font-size: 45px;
 }
 
+/* Choice area with buttons for each choice */
+
+.choices {
+    text-align: center;
+}
+
+.choice {
+    width: 7.5%;
+    height: 45px;
+    color: #003b49;
+    background-color: #f2c75c;
+}
+
+/* Game display area */
+
+.display-game {
+    border-width:2px;
+    border-style:solid;
+    border-color: #f2c75c;
+    height: 20px;
+    width: 75%;
+}
