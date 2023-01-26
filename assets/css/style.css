@@ -74,9 +74,30 @@ h1 {
 /* Game display area */
 
 .display-game {
+    
     border-width:2px;
     border-style:solid;
     border-color: #f2c75c;
     height: 20px;
-    width: 75%;
+    width: 50%;
+    margin: 20px auto;
+    position: relative;
+    height: 70%;
+    text-align: center;
+}
+
+.game-images {
+    border-width:2px;
+    border-style:solid;
+    border-color: #f2c75c;
+    display: inline-block;
+    margin: 40px 50px;
+}
+
+.display-choices {
+    position: relative;
+    color: #f2c75c;
+    bottom: -40px;
+    right: 150px;
+    font-weight: 100;
 }
