@@ -41,7 +41,7 @@ function computerChoice() {
 
 function game(userChoice) {
     let compChoice = computerChoice(); 
-    
+    displayImages(userChoice, compChoice);
     if (userChoice === compChoice) {
         console.log("its a tie");
         resultTie();
@@ -168,4 +168,14 @@ function resultLossL() {
 function resultLossSp() {
     document.getElementById("resultPara").innerText = "Computer Wins!!";
     document.getElementById("action-message").innerText = "You picked Spock and lost!";
+}
+
+/**
+ * Function to display image that represents the user
+ * and computers choices
+ */
+
+function displayImages(userChoice, compChoice) {
+    document.getElementById("user-image")
+    document.getElementById("computer-image")
 }
