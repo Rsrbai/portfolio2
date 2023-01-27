@@ -7,18 +7,23 @@ document.addEventListener("DOMContentLoaded", function() {
             if (this.getAttribute("data-type") === "rock") {
                 alert("You picked Rock!");
                 game("r");
+                displayUserImages();
             } else if (this.getAttribute("data-type") === "paper") {
                 alert("You picked Paper!");
                 game("p");
+                displayUserImages();
             } else if (this.getAttribute("data-type") === "scissors") {
                 alert("You picked Scissors!");
                 game("s");
+                displayUserImages();
             } else if (this.getAttribute("data-type") === "lizard") {
                 alert("You picked Lizard!");
                 game("l");
+                displayUserImages();
             } else if (this.getAttribute("data-type") === "spock") {
                 alert("You picked Spock!");
                 game("sp");
+                displayUserImages();
             }
         });
     }
@@ -41,7 +46,6 @@ function computerChoice() {
 
 function game(userChoice) {
     let compChoice = computerChoice(); 
-    displayImages(userChoice, compChoice);
     if (userChoice === compChoice) {
         console.log("its a tie");
         resultTie();
@@ -171,11 +175,10 @@ function resultLossSp() {
 }
 
 /**
- * Function to display image that represents the user
+ * Functions to display images that represents the user
  * and computers choices
  */
 
-function displayImages(userChoice, compChoice) {
-    document.getElementById("user-image")
-    document.getElementById("computer-image")
+function displayUserImages() {
+    
 }
