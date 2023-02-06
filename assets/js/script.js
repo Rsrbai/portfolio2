@@ -45,7 +45,8 @@ function computerChoice() {
  */
 
 function game(userChoice) {
-    let compChoice = computerChoice(); 
+    let compChoice = computerChoice();
+    displayCompImages(compChoice); 
     if (userChoice === compChoice) {
         resultTie();
     } else if (userChoice === "r") {
@@ -120,7 +121,7 @@ function increaseCompScore() {
     document.getElementById("computer-score").innerText = ++oldScore;
 }
 /**
- * Function to show the action message informing of their pick and winning
+ * Functions to show the action message informing of their pick and winning
  */
 function actionMessageR() {
     document.getElementById("resultPara").innerText = "User Wins!!";
@@ -150,7 +151,7 @@ function resultTie() {
     document.getElementById("action-message").innerText = "You and the computer both picked the same option!";
 }
 /**
- * Function that shows the computer has won
+ * Functions that shows the computer has won
  */
 function resultLossR() {
     document.getElementById("resultPara").innerText = "Computer Wins!!";
@@ -194,5 +195,24 @@ function displayUserImages(userChoice) {
     } else if (userChoice === "spock") {
         document.getElementById("user-image").innerHTML = `<img id ="user-image" alt="Game image" src="assets/images/spock.png">
                                                             <span class="display-choices" id="display-choice-u">You picked Spock!</span>`
+    }
+}
+
+function displayCompImages(compChoice) {
+    if (compChoice === "p") {
+        document.getElementById("computer-image").innerHTML = `<img id ="computer-image" alt="Game image" src="assets/images/paper.png">
+                                                            <span class="display-choices" id="display-choice-c">Comp picked Paper!</span>`
+    } else if (compChoice === "r") {
+        document.getElementById("computer-image").innerHTML = `<img id ="computer-image" alt="Game image" src="assets/images/rock.png">
+                                                            <span class="display-choices" id="display-choice-c">Comp picked Rock!</span>`
+    } else if (compChoice === "s") {
+        document.getElementById("computer-image").innerHTML = `<img id ="computer-image" alt="Game image" src="assets/images/scissors.png">
+                                                            <span class="display-choices" id="display-choice-c">Comp picked Scissors!</span>`
+    } else if (compChoice === "l") {
+        document.getElementById("computer-image").innerHTML = `<img id ="computer-image" alt="Game image" src="assets/images/lizard.png">
+                                                            <span class="display-choices" id="display-choice-c">Comp picked Lizard!</span>`
+    } else if (compChoice === "sp") {
+        document.getElementById("computer-image").innerHTML = `<img id ="computer-image" alt="Game image" src="assets/images/spock.png">
+                                                            <span class="display-choices" id="display-choice-c">Comp picked Spock!</span>`
     }
 }
