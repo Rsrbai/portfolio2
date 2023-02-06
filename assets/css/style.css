@@ -125,9 +125,20 @@ h1 {
 @media screen and (max-width: 1000px) {
     #user-label {
         position: relative;
-        width: 100px;
+        width: 110px;
+        top: -5px;
     }
-    #comp-label {
-        position: relative;
+    #computer-label {
+        display: inline block;
+        right: -15px;
+        width: 110px;
     }
+    #user-image, #computer-image {
+        height: 275px;
+        width: 275px
+    }
+}
+
+@media screen and (max-width: 750px) {
+    
 }
