@@ -71,6 +71,13 @@ h1 {
     background-color: #f2c75c;
 }
 
+.display-choices {
+    position: relative;
+    color: #f2c75c;
+    font-weight: 100;
+    text-align: center;
+}
+
 /* Game display area */
 
 .display-game {
@@ -94,21 +101,14 @@ h1 {
     
 }
 
-.display-choices {
-    position: relative;
-    color: #f2c75c;
-    font-weight: 100;
-    text-align: center;
-}
-
 #user-image {
-    height: 350px;
-    width: 350px;
+    height: 325px;
+    width: 325px;
 }
 
 #computer-image {
-    height: 350px;
-    width: 350px;
+    height: 325px;
+    width: 325px;
 }
 
 /* Results paragraph */
@@ -145,7 +145,7 @@ h1 {
         width: 200px;
     }
     .choice {
-        width: 75px;
+        width: 65px;
     }
 }
 
@@ -157,5 +157,7 @@ h1 {
 }
 
 @media screen and (max-width: 400px) {
-
+    .display-game {
+        width: 200px;
+    }
 }
