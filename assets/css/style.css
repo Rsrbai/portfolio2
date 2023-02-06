@@ -78,11 +78,10 @@ h1 {
     border-width:2px;
     border-style:solid;
     border-color: #f2c75c;
-    height: 20px;
     width: 50%;
     margin: 20px auto;
     position: relative;
-    height: 70%;
+    height: 75%;
     text-align: center;
 }
 
@@ -92,14 +91,24 @@ h1 {
     border-color: #f2c75c;
     display: inline-block;
     margin: 40px 50px;
+    
 }
 
 .display-choices {
     position: relative;
     color: #f2c75c;
-    bottom: -40px;
-    right: 150px;
     font-weight: 100;
+    text-align: center;
+}
+
+#user-image {
+    height: 350px;
+    width: 350px;
+}
+
+#computer-image {
+    height: 350px;
+    width: 350px;
 }
 
 /* Results paragraph */
@@ -108,4 +117,17 @@ h1 {
     text-align: center;
     font-size: 45px;
     color: #f2c75c;
+}
+
+
+/* Media queries for responsiveness */
+
+@media screen and (max-width: 1000px) {
+    #user-label {
+        position: relative;
+        width: 100px;
+    }
+    #comp-label {
+        position: relative;
+    }
 }
