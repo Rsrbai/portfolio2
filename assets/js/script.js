@@ -7,23 +7,23 @@ document.addEventListener("DOMContentLoaded", function() {
             if (this.getAttribute("data-type") === "rock") {
                 alert("You picked Rock!");
                 game("r");
-                displayUserImages();
+                displayUserImages("rock");
             } else if (this.getAttribute("data-type") === "paper") {
                 alert("You picked Paper!");
                 game("p");
-                displayUserImages();
+                displayUserImages("paper");
             } else if (this.getAttribute("data-type") === "scissors") {
                 alert("You picked Scissors!");
                 game("s");
-                displayUserImages();
+                displayUserImages("scissors");
             } else if (this.getAttribute("data-type") === "lizard") {
                 alert("You picked Lizard!");
                 game("l");
-                displayUserImages();
+                displayUserImages("lizard");
             } else if (this.getAttribute("data-type") === "spock") {
                 alert("You picked Spock!");
                 game("sp");
-                displayUserImages();
+                displayUserImages("spock");
             }
         });
     }
@@ -47,7 +47,6 @@ function computerChoice() {
 function game(userChoice) {
     let compChoice = computerChoice(); 
     if (userChoice === compChoice) {
-        console.log("its a tie");
         resultTie();
     } else if (userChoice === "r") {
         if (compChoice === "s") {
@@ -179,6 +178,21 @@ function resultLossSp() {
  * and computers choices
  */
 
-function displayUserImages() {
-    
+function displayUserImages(userChoice) {
+    if (userChoice === "paper") {
+        document.getElementById("user-image").innerHTML = `<img id ="user-image" alt="Game image" src="assets/images/paper.png">
+                                                            <span class="display-choices" id="display-choice-u">You picked Paper!</span>`
+    } else if (userChoice === "rock") {
+        document.getElementById("user-image").innerHTML = `<img id ="user-image" alt="Game image" src="assets/images/rock.png">
+                                                            <span class="display-choices" id="display-choice-u">You picked Rock!</span>`
+    } else if (userChoice === "scissors") {
+        document.getElementById("user-image").innerHTML = `<img id ="user-image" alt="Game image" src="assets/images/scissors.png">
+                                                            <span class="display-choices" id="display-choice-u">You picked Scissors!</span>`
+    } else if (userChoice === "lizard") {
+        document.getElementById("user-image").innerHTML = `<img id ="user-image" alt="Game image" src="assets/images/lizard.png">
+                                                            <span class="display-choices" id="display-choice-u">You picked Lizard!</span>`
+    } else if (userChoice === "spock") {
+        document.getElementById("user-image").innerHTML = `<img id ="user-image" alt="Game image" src="assets/images/spock.png">
+                                                            <span class="display-choices" id="display-choice-u">You picked Spock!</span>`
+    }
 }
