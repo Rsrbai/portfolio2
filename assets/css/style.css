@@ -101,14 +101,9 @@ h1 {
     
 }
 
-#user-image {
-    height: 325px;
-    width: 325px;
-}
-
-#computer-image {
-    height: 325px;
-    width: 325px;
+#user-image, #computer-image {
+    height: 300px;
+    width: 300px;
 }
 
 /* Results paragraph */
