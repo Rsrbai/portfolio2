@@ -102,8 +102,8 @@ h1 {
 }
 
 #user-image, #computer-image {
-    height: 300px;
-    width: 300px;
+    height: 275px;
+    width: 275px;
 }
 
 /* Results paragraph */
@@ -127,10 +127,6 @@ h1 {
         display: inline block;
         right: -15px;
         width: 110px;
-    }
-    #user-image, #computer-image {
-        height: 275px;
-        width: 275px
     }
 }
 
