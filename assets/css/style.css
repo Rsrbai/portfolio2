@@ -162,6 +162,8 @@ h1 {
     #user-score, #computer-score, #score-keeper {
         font-size: 20px;
         font-weight: bold;
+        position: relative;
+        bottom: 60px;
     }
     .score-board {
         height: 50px;
