@@ -128,6 +128,13 @@ h1 {
         right: -15px;
         width: 110px;
     }
+    #user-score, #computer-score, #score-keeper {
+        position: relative;
+        bottom: 60px;
+    }
+    .score-board {
+        height: 100px;
+    }
 }
 
 @media screen and (max-width: 750px) {
@@ -159,13 +166,11 @@ h1 {
         font-size: 20px;
         font-weight: bold;
     }
+    .score-board {
+        height: 50px;
+    }
     #user-score, #computer-score, #score-keeper {
         font-size: 20px;
         font-weight: bold;
-        position: relative;
-        bottom: 60px;
-    }
-    .score-board {
-        height: 50px;
     }
 }
