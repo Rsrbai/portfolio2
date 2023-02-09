@@ -177,38 +177,38 @@ function resultLossSp() {
 
 function displayUserImages(userChoice) {
     if (userChoice === "p") {
-        document.getElementById("user-image").innerHTML = `<img id ="user-image" alt="Game image" src="assets/images/paper.png">
+        document.getElementById("user-image").innerHTML = `<img aria-label="Picture of a hand in a shape representing Paper" id ="user-image" alt="Game image" src="assets/images/paper.png">
                                                             <span class="display-choices" id="display-choice-u">You picked Paper!</span>`;
     } else if (userChoice === "r") {
-        document.getElementById("user-image").innerHTML = `<img id ="user-image" alt="Game image" src="assets/images/rock.png">
+        document.getElementById("user-image").innerHTML = `<img aria-label="Picture of a hand in a shape representing a rock" id ="user-image" alt="Game image" src="assets/images/rock.png">
                                                             <span class="display-choices" id="display-choice-u">You picked Rock!</span>`;
     } else if (userChoice === "s") {
-        document.getElementById("user-image").innerHTML = `<img id ="user-image" alt="Game image" src="assets/images/scissors.png">
+        document.getElementById("user-image").innerHTML = `<img aria-label="Picture of a hand in a shape representing Scissors" id ="user-image" alt="Game image" src="assets/images/scissors.png">
                                                             <span class="display-choices" id="display-choice-u">You picked Scissors!</span>`;
     } else if (userChoice === "l") {
-        document.getElementById("user-image").innerHTML = `<img id ="user-image" alt="Game image" src="assets/images/lizard.png">
+        document.getElementById("user-image").innerHTML = `<img aria-label="Picture of a hand in a shape representing Lizard" id ="user-image" alt="Game image" src="assets/images/lizard.png">
                                                             <span class="display-choices" id="display-choice-u">You picked Lizard!</span>`;
     } else if (userChoice === "sp") {
-        document.getElementById("user-image").innerHTML = `<img id ="user-image" alt="Game image" src="assets/images/spock.png">
+        document.getElementById("user-image").innerHTML = `<img aria-label="Picture of a hand in a shape representing Spock" id ="user-image" alt="Game image" src="assets/images/spock.png">
                                                             <span class="display-choices" id="display-choice-u">You picked Spock!</span>`;
     }
 }
 
 function displayCompImages(compChoice) {
     if (compChoice === "p") {
-        document.getElementById("computer-image").innerHTML = `<img id ="computer-image" alt="Game image" src="assets/images/paper.png">
+        document.getElementById("computer-image").innerHTML = `<img aria-label="Picture of a hand in a shape representing Paper" id ="computer-image" alt="Game image" src="assets/images/paper.png">
                                                             <span class="display-choices" id="display-choice-c">Comp picked Paper!</span>`;
     } else if (compChoice === "r") {
-        document.getElementById("computer-image").innerHTML = `<img id ="computer-image" alt="Game image" src="assets/images/rock.png">
+        document.getElementById("computer-image").innerHTML = `<img aria-label="Picture of a hand in a shape representing a rock" id ="computer-image" alt="Game image" src="assets/images/rock.png">
                                                             <span class="display-choices" id="display-choice-c">Comp picked Rock!</span>`;
     } else if (compChoice === "s") {
-        document.getElementById("computer-image").innerHTML = `<img id ="computer-image" alt="Game image" src="assets/images/scissors.png">
+        document.getElementById("computer-image").innerHTML = `<img aria-label="Picture of a hand in a shape representing Scissors" id ="computer-image" alt="Game image" src="assets/images/scissors.png">
                                                             <span class="display-choices" id="display-choice-c">Comp picked Scissors!</span>`;
     } else if (compChoice === "l") {
-        document.getElementById("computer-image").innerHTML = `<img id ="computer-image" alt="Game image" src="assets/images/lizard.png">
+        document.getElementById("computer-image").innerHTML = `<img aria-label="Picture of a hand in a shape representing Lizard" id ="computer-image" alt="Game image" src="assets/images/lizard.png">
                                                             <span class="display-choices" id="display-choice-c">Comp picked Lizard!</span>`;
     } else if (compChoice === "sp") {
-        document.getElementById("computer-image").innerHTML = `<img id ="computer-image" alt="Game image" src="assets/images/spock.png">
+        document.getElementById("computer-image").innerHTML = `<img aria-label="Picture of a hand in a shape representing Spock" id ="computer-image" alt="Game image" src="assets/images/spock.png">
                                                             <span class="display-choices" id="display-choice-c">Comp picked Spock!</span>`;
     }
 }

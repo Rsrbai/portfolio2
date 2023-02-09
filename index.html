@@ -30,15 +30,15 @@
 
     <!-- Controls area containing each choice same way as love Maths and got the pictures from slack -->
     <div class="choices">
-        <button aria-label="Picture of a hand in a shape representing a rock" id="r" class="choice" data-type="rock">
+        <button id="r" class="choice" data-type="rock">
         Rock</button>
-        <button aria-label="Picture of a hand in a shape representing Paper" id="p" class="choice" data-type="paper">
+        <button id="p" class="choice" data-type="paper">
         Paper</button> 
-        <button aria-label="Picture of a hand in a shape representing Scissors" id="s" class="choice" data-type="scissors">
+        <button id="s" class="choice" data-type="scissors">
         Scissors</button>
-        <button aria-label="Picture of a hand in a shape representing Lizard" id="l" class="choice" data-type="lizard">
+        <button id="l" class="choice" data-type="lizard">
         Lizard</button>
-        <button aria-label="Picture of a hand in a shape representing Spock" id="sp" class="choice" data-type="spock">
+        <button id="sp" class="choice" data-type="spock">
         Spock</button>
     </div>
 
@@ -46,12 +46,12 @@
 
     <div class="display-game" id="display-game">
         <div class="game-images" id="user-image-div">
-            <img id="user-image" alt="Game image" src="assets/images/rock.png">
+            <img aria-label="Picture of a hand in a shape representing a rock" id="user-image" alt="Game image" src="assets/images/rock.png">
             <span class="display-choices" id="display-choice-u">User choice!</span>
         </div>
         
         <div class="game-images" id="computer-image-div">
-            <img id="computer-image" alt="Game image" src="assets/images/rock.png">
+            <img aria-label="Picture of a hand in a shape representing a rock" id="computer-image" alt="Game image" src="assets/images/rock.png">
             <span class="display-choices" id="display-choice-c">Comp choice!</span>
         </div>
     </div>
