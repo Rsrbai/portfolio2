@@ -7,23 +7,18 @@ document.addEventListener("DOMContentLoaded", function() {
             if (this.getAttribute("data-type") === "rock") {
                 alert("You picked Rock!");
                 game("r");
-                displayUserImages("rock");
             } else if (this.getAttribute("data-type") === "paper") {
                 alert("You picked Paper!");
                 game("p");
-                displayUserImages("paper");
             } else if (this.getAttribute("data-type") === "scissors") {
                 alert("You picked Scissors!");
                 game("s");
-                displayUserImages("scissors");
             } else if (this.getAttribute("data-type") === "lizard") {
                 alert("You picked Lizard!");
                 game("l");
-                displayUserImages("lizard");
             } else if (this.getAttribute("data-type") === "spock") {
                 alert("You picked Spock!");
                 game("sp");
-                displayUserImages("spock");
             }
         });
     }
@@ -46,6 +41,7 @@ function computerChoice() {
 
 function game(userChoice) {
     let compChoice = computerChoice();
+    displayUserImages(userChoice);
     displayCompImages(compChoice); 
     if (userChoice === compChoice) {
         resultTie();
@@ -90,7 +86,7 @@ function game(userChoice) {
             actionMessageL();
             increaseScore();
         } else {
-            resultLossL()
+            resultLossL();
             increaseCompScore();
         }
     } else if (userChoice === "sp") {
@@ -180,39 +176,39 @@ function resultLossSp() {
  */
 
 function displayUserImages(userChoice) {
-    if (userChoice === "paper") {
+    if (userChoice === "p") {
         document.getElementById("user-image").innerHTML = `<img id ="user-image" alt="Game image" src="assets/images/paper.png">
-                                                            <span class="display-choices" id="display-choice-u">You picked Paper!</span>`
-    } else if (userChoice === "rock") {
+                                                            <span class="display-choices" id="display-choice-u">You picked Paper!</span>`;
+    } else if (userChoice === "r") {
         document.getElementById("user-image").innerHTML = `<img id ="user-image" alt="Game image" src="assets/images/rock.png">
-                                                            <span class="display-choices" id="display-choice-u">You picked Rock!</span>`
-    } else if (userChoice === "scissors") {
+                                                            <span class="display-choices" id="display-choice-u">You picked Rock!</span>`;
+    } else if (userChoice === "s") {
         document.getElementById("user-image").innerHTML = `<img id ="user-image" alt="Game image" src="assets/images/scissors.png">
-                                                            <span class="display-choices" id="display-choice-u">You picked Scissors!</span>`
-    } else if (userChoice === "lizard") {
+                                                            <span class="display-choices" id="display-choice-u">You picked Scissors!</span>`;
+    } else if (userChoice === "l") {
         document.getElementById("user-image").innerHTML = `<img id ="user-image" alt="Game image" src="assets/images/lizard.png">
-                                                            <span class="display-choices" id="display-choice-u">You picked Lizard!</span>`
-    } else if (userChoice === "spock") {
+                                                            <span class="display-choices" id="display-choice-u">You picked Lizard!</span>`;
+    } else if (userChoice === "sp") {
         document.getElementById("user-image").innerHTML = `<img id ="user-image" alt="Game image" src="assets/images/spock.png">
-                                                            <span class="display-choices" id="display-choice-u">You picked Spock!</span>`
+                                                            <span class="display-choices" id="display-choice-u">You picked Spock!</span>`;
     }
 }
 
 function displayCompImages(compChoice) {
     if (compChoice === "p") {
         document.getElementById("computer-image").innerHTML = `<img id ="computer-image" alt="Game image" src="assets/images/paper.png">
-                                                            <span class="display-choices" id="display-choice-c">Comp picked Paper!</span>`
+                                                            <span class="display-choices" id="display-choice-c">Comp picked Paper!</span>`;
     } else if (compChoice === "r") {
         document.getElementById("computer-image").innerHTML = `<img id ="computer-image" alt="Game image" src="assets/images/rock.png">
-                                                            <span class="display-choices" id="display-choice-c">Comp picked Rock!</span>`
+                                                            <span class="display-choices" id="display-choice-c">Comp picked Rock!</span>`;
     } else if (compChoice === "s") {
         document.getElementById("computer-image").innerHTML = `<img id ="computer-image" alt="Game image" src="assets/images/scissors.png">
-                                                            <span class="display-choices" id="display-choice-c">Comp picked Scissors!</span>`
+                                                            <span class="display-choices" id="display-choice-c">Comp picked Scissors!</span>`;
     } else if (compChoice === "l") {
         document.getElementById("computer-image").innerHTML = `<img id ="computer-image" alt="Game image" src="assets/images/lizard.png">
-                                                            <span class="display-choices" id="display-choice-c">Comp picked Lizard!</span>`
+                                                            <span class="display-choices" id="display-choice-c">Comp picked Lizard!</span>`;
     } else if (compChoice === "sp") {
         document.getElementById("computer-image").innerHTML = `<img id ="computer-image" alt="Game image" src="assets/images/spock.png">
-                                                            <span class="display-choices" id="display-choice-c">Comp picked Spock!</span>`
+                                                            <span class="display-choices" id="display-choice-c">Comp picked Spock!</span>`;
     }
 }

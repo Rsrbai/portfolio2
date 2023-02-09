@@ -101,7 +101,7 @@ h1 {
     
 }
 
-#user-image, #computer-image {
+#user-image, #computer-image, #user-image-div, #computer-image-div {
     height: 225px;
     width: 225px;
 }
@@ -124,7 +124,7 @@ h1 {
         top: -5px;
     }
     #computer-label {
-        display: inline block;
+        display: inline-block;
         right: -15px;
         width: 110px;
     }
@@ -138,7 +138,7 @@ h1 {
 }
 
 @media screen and (max-width: 750px) {
-    #user-image, #computer-image {
+    #user-image, #computer-image, #user-image-div, #computer-image-div {
         height: 200px;
         width: 200px;
     }
@@ -148,7 +148,7 @@ h1 {
 }
 
 @media screen and (max-width: 600px) {
-    #user-image, #computer-image {
+    #user-image, #computer-image, #user-image-div, #computer-image-div {
         height: 100px;
         width: 100px;
     }
