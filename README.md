@@ -38,5 +38,64 @@ The player makes a pick of their choice of rock, paper, scissors, lizard or spoc
 
 ## Future Features
 
+* Giving the user the option to have a best out of 3 or 5 games.
+* A Timer to see how many games you can win in a certain amount of time.
+* Customizable name
+
+# Testing
+
+## Manual testing
+
+* Test that the correct alert appears for the user clicking rock
+
+![Image of alert after clicking rock](assets/images/test_click_rock.png)
+
+* Test that the rock choice registered and processed correctly
+
+![Image of clicking rock result](assets/images/test_rock.png)
+
+* Test that the correct alert appears for the user clicking paper
+
+![Image of alert after clicking paper](assets/images/test_click_paper.png)
+
+* Test that the paper choice registered and processed correctly
+
+![Image of clicking paper result](assets/images/test_paper.png)
+
+* Test that the correct alert appears for the user clicking scissors
+
+![Image of alert after clicking scissors](assets/images/test_click_scissors.png)
+
+* Test that the scissors choice registered and processed correctly
+
+![Image of clicking scissors result](assets/images/test_scissors.png)
+
+* Test that the correct alert appears for the user clicking lizard
+
+![Image of alert after clicking lizard](assets/images/test_click_lizard.png)
+
+* Test that the lizard choice registered and processed correctly
+
+![Image of clicking paper result](assets/images/test_lizard.png)
+
+* Test that the correct alert appears for the user clicking Spock
+
+![Image of alert after clicking Spock](assets/images/test_click_spock.png)
+
+* Test that the Spock choice registered and processed correctly
+
+![Image of clicking Spock result](assets/images/test_spock.png)
+
+## HTML Validator
+
+In the image below I have two bugs being shown, both duplicate ids in the code.
+
+![Image of HTML validator bugs](assets/images/test_html_validator.png)
+
+To fix this I added div to each element that had the duplicate ID giving more specifity. I then passed my code back through the HTML validator and received no errors or warnings as you can see in the image below.
+
+![Image of HTML validator bug fix](assets/images/test_html_validator_fix.png)
+
+
 
 
