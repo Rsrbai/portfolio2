@@ -107,3 +107,32 @@ To fix this I added the - and passed my code through the validator again and rec
 ![Image of CSS validator with no errors found](assets/images/test_css_validator_fix.png)
 
 
+## JS Hint 
+
+As you can see in the image below I have not added the semi-colon to the end of many of the lines of code.
+
+![Image of JShint errors](assets/images/test_JShint.png)
+
+I added the semi-colons where needed and passed my code through the js linter again and received only the warnings about functions in loops as you can see in the picture below.
+
+![Image of JShint no errors](assets/images/test_JShint_fix.png)
+
+## Lighthouse test
+
+Below is a successful lighthouse test carried out in chrome developer tools.
+
+![Image of lighthouse test](assets/images/test_lighthouse.png)
+
+## Responsivsness test
+
+Below is a picture of the website displayed on a mobile device sized window.
+
+![Image of website displayed on mobile](assets/images/r_design1.png)
+
+Below is a picture of the website displayed on a tablet sized window.
+
+![Image of website displayed on tablet](assets/images/r_design2.png)
+
+Below is a picture of the website displayed on a desktop sized window.
+
+![Image of website displayed on desktop](assets/images/r_design3.png)
