@@ -136,3 +136,13 @@ Below is a picture of the website displayed on a tablet sized window.
 Below is a picture of the website displayed on a desktop sized window.
 
 ![Image of website displayed on desktop](assets/images/r_design3.png)
+
+## Bug
+
+Below is a bug I encountered after passing my code through the HTML linter and correcting the duplicate ID bug, the images are no longer changing when they should.
+
+![Image of bug](assets/images/img_bug.png)
+
+To fix this I correct I changed all of the Javascript code that interacts with the changed html element ID to the correct tag name as seen below.
+
+![Image of bug fix](assets/images/img_bug_fix.png)
