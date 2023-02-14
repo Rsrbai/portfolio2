@@ -96,6 +96,14 @@ To fix this I added div to each element that had the duplicate ID giving more sp
 
 ![Image of HTML validator bug fix](assets/images/test_html_validator_fix.png)
 
+## CSS Validator 
 
+In the image below I have one bug flagged by the W3C CSS validator, this is due to no - in the css rule.
+
+![Image of bug found in CSS validator](assets/images/test_css_validator.png)
+
+To fix this I added the - and passed my code through the validator again and received no errors as shown below
+
+![Image of CSS validator with no errors found](assets/images/test_css_validator_fix.png)
 
 
