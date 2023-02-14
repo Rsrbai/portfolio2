@@ -146,3 +146,7 @@ Below is a bug I encountered after passing my code through the HTML linter and c
 To fix this I correct I changed all of the Javascript code that interacts with the changed html element ID to the correct tag name as seen below.
 
 ![Image of bug fix](assets/images/img_bug_fix.png)
+
+## Remaining bugs
+
+There are no known remaining bugs
