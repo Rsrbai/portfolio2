@@ -138,6 +138,24 @@ Below is a picture of the website displayed on a desktop sized window.
 
 ![Image of website displayed on desktop](assets/images/r-design-three.png)
 
+## Browser testing
+
+Below is an image of the website rendered in internet explorer
+
+![Image of internet explorer website](assets/images/internet-explorer.png)
+
+Below is an image of the website rendered in firefox
+
+![Image of firefox website](assets/images/firefox.png)
+
+Below is an image of the website rendered in microsoft edge
+
+![Image of microsoft edge website](assets/images/microsoft-edge.png)
+
+Below is an image of the website rendered in opera
+
+![Image of opera website](assets/images/opera.png)
+
 ## Web Accessability Evaluation tool
 
 Below I have reveived no errors for accessability from the online Wave (web accessability evaluation tool)
