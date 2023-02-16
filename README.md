@@ -26,6 +26,7 @@ The player makes a pick of their choice of rock, paper, scissors, lizard or spoc
 
 ## Existing Features
 
+* Favicon of a missile being launched to represent attacks
 * User and comp name tags
 * Score keeper for player and comp
 * Action message prompting an action
