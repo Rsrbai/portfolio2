@@ -138,6 +138,12 @@ Below is a picture of the website displayed on a desktop sized window.
 
 ![Image of website displayed on desktop](assets/images/r-design-three.png)
 
+## Web Accessability Evaluation tool
+
+Below I have reveived no errors for accessability from the online Wave (web accessability evaluation tool)
+
+![Image of wave results](assets/images/wave.png)
+
 ## Bug
 
 Below is a bug I encountered after passing my code through the HTML linter and correcting the duplicate ID bug, the images are no longer changing when they should.
