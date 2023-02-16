@@ -1,6 +1,6 @@
 # Rock Paper Scissors Lizard Spock
 
-Rock Paper Scissors Lizard Spock is a variant of the game Rock Paper Scissors, created by the charactor Sheldon in the big bang theory. This game is a good way to showcase the javascript by providing a website which requires user input and outputs data based on the user input. Creating a simple but fun game for anyone to enjoy.
+Rock Paper Scissors Lizard Spock is a variant of the game Rock Paper Scissors, created by the charactor Sheldon in the big bang theory. This game is a good way to showcase the javascript by providing a website which requires user input and outputs data based on the user input. Creating a simple but fun game for anyone to enjoy. The games scope includes anyone who would like to try their luck against the computer.
 
 [You can access the project here](https://rsrbai.github.io/portfolio2/)
 
