@@ -159,3 +159,18 @@ There are no known remaining bugs
     - Under branch select the branch you would like to deploy
     - Click Save
 
+# Credits
+
+I got the colour scheme from [this website as seen below](http://www.sussex.ac.uk/tel/resource/tel_website/accessiblecontrast/?q=FFFFFF~003b49~1d4289~94a596~e56db1~d3273e~00bfb2~d6d2c4~ffc845~dc582a~41b6e6~1b365d~be84a3~5d3754~7da1c4~f2c75c~d0d3d4~007a78~000000)
+
+![Image of colour pallette](assets/images/colour_pallette.png)
+
+I took ideas [from this tutorial](https://www.youtube.com/watch?v=jaVNP3nIAv0&t=364s&ab_channel=freeCodeCamp.org) on youtube for the overall design and an idea of how the logic would look.
+
+The fonts were taken from Google fonts.
+
+I got the idea to do the game from the Code Institute LMS.
+
+
+
+
