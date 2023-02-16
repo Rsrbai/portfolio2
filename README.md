@@ -150,3 +150,12 @@ To fix this I correct I changed all of the Javascript code that interacts with t
 ## Remaining bugs
 
 There are no known remaining bugs
+
+# Deployment
+
+* This website was deployed to GitHub pages, the steps to deploy are as follows:
+    - In the GitHub repository navigate to the Settings tab
+    - Under code and automation on the left hand side of the Settings tab click on pages
+    - Under branch select the branch you would like to deploy
+    - Click Save
+
