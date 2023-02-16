@@ -168,6 +168,8 @@ I got the colour scheme from [this website as seen below](http://www.sussex.ac.u
 
 ![Image of colour pallette](assets/images/colour_pallette.png)
 
+The favicon icon was sourced from [this website](https://icons8.com/icons/set/favicon)
+
 I took ideas [from this tutorial](https://www.youtube.com/watch?v=jaVNP3nIAv0&t=364s&ab_channel=freeCodeCamp.org) on youtube for the overall design and an idea of how the logic would look.
 
 The fonts were taken from Google fonts.
@@ -178,6 +180,6 @@ I got the idea to do the game from the Code Institute LMS.
 
 All of the pictures were sourced from Slack.
 
-The favicon icon was sourced from [this website](https://icons8.com/icons/set/favicon)
+
 
 
