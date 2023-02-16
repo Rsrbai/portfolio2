@@ -177,4 +177,6 @@ I got the idea to do the game from the Code Institute LMS.
 
 All of the pictures were sourced from Slack.
 
+The favicon icon was sourced from [this website](https://icons8.com/icons/set/favicon)
+
 
