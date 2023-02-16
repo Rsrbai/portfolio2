@@ -49,104 +49,104 @@ The player makes a pick of their choice of rock, paper, scissors, lizard or spoc
 
 * Test that the correct alert appears for the user clicking rock
 
-![Image of alert after clicking rock](assets/images/test_click_rock.png)
+![Image of alert after clicking rock](assets/images/test-click-rock.png)
 
 * Test that the rock choice registered and processed correctly
 
-![Image of clicking rock result](assets/images/test_rock.png)
+![Image of clicking rock result](assets/images/test-rock.png)
 
 * Test that the correct alert appears for the user clicking paper
 
-![Image of alert after clicking paper](assets/images/test_click_paper.png)
+![Image of alert after clicking paper](assets/images/test-click-paper.png)
 
 * Test that the paper choice registered and processed correctly
 
-![Image of clicking paper result](assets/images/test_paper.png)
+![Image of clicking paper result](assets/images/test-paper.png)
 
 * Test that the correct alert appears for the user clicking scissors
 
-![Image of alert after clicking scissors](assets/images/test_click_scissors.png)
+![Image of alert after clicking scissors](assets/images/test-click-scissors.png)
 
 * Test that the scissors choice registered and processed correctly
 
-![Image of clicking scissors result](assets/images/test_scissors.png)
+![Image of clicking scissors result](assets/images/test-scissors.png)
 
 * Test that the correct alert appears for the user clicking lizard
 
-![Image of alert after clicking lizard](assets/images/test_click_lizard.png)
+![Image of alert after clicking lizard](assets/images/test-click-lizard.png)
 
 * Test that the lizard choice registered and processed correctly
 
-![Image of clicking paper result](assets/images/test_lizard.png)
+![Image of clicking paper result](assets/images/test-lizard.png)
 
 * Test that the correct alert appears for the user clicking Spock
 
-![Image of alert after clicking Spock](assets/images/test_click_spock.png)
+![Image of alert after clicking Spock](assets/images/test-click-spock.png)
 
 * Test that the Spock choice registered and processed correctly
 
-![Image of clicking Spock result](assets/images/test_spock.png)
+![Image of clicking Spock result](assets/images/test-spock.png)
 
 ## HTML Validator
 
 In the image below I have two bugs being shown, both duplicate ids in the code.
 
-![Image of HTML validator bugs](assets/images/test_html_validator.png)
+![Image of HTML validator bugs](assets/images/test-html-validator.png)
 
 To fix this I added div to each element that had the duplicate ID giving more specifity. I then passed my code back through the HTML validator and received no errors or warnings as you can see in the image below.
 
-![Image of HTML validator bug fix](assets/images/test_html_validator_fix.png)
+![Image of HTML validator bug fix](assets/images/test-html-validator-fix.png)
 
 ## CSS Validator 
 
 In the image below I have one bug flagged by the W3C CSS validator, this is due to no - in the css rule.
 
-![Image of bug found in CSS validator](assets/images/test_css_validator.png)
+![Image of bug found in CSS validator](assets/images/test-css-validator.png)
 
 To fix this I added the - and passed my code through the validator again and received no errors as shown below
 
-![Image of CSS validator with no errors found](assets/images/test_css_validator_fix.png)
+![Image of CSS validator with no errors found](assets/images/test-css-validator-fix.png)
 
 
 ## JS Hint 
 
 As you can see in the image below I have not added the semi-colon to the end of many of the lines of code.
 
-![Image of JShint errors](assets/images/test_JShint.png)
+![Image of JShint errors](assets/images/test-jshint.png)
 
 I added the semi-colons where needed and passed my code through the js linter again and received only the warnings about functions in loops as you can see in the picture below.
 
-![Image of JShint no errors](assets/images/test_JShint_fix.png)
+![Image of JShint no errors](assets/images/test-jshint-fix.png)
 
 ## Lighthouse test
 
 Below is a successful lighthouse test carried out in chrome developer tools.
 
-![Image of lighthouse test](assets/images/test_lighthouse.png)
+![Image of lighthouse test](assets/images/test-lighthouse.png)
 
 ## Responsivsness test
 
 Below is a picture of the website displayed on a mobile device sized window.
 
-![Image of website displayed on mobile](assets/images/r_design1.png)
+![Image of website displayed on mobile](assets/images/r-design-one.png)
 
 Below is a picture of the website displayed on a tablet sized window.
 
-![Image of website displayed on tablet](assets/images/r_design2.png)
+![Image of website displayed on tablet](assets/images/r-design-two.png)
 
 Below is a picture of the website displayed on a desktop sized window.
 
-![Image of website displayed on desktop](assets/images/r_design3.png)
+![Image of website displayed on desktop](assets/images/r-design-three.png)
 
 ## Bug
 
 Below is a bug I encountered after passing my code through the HTML linter and correcting the duplicate ID bug, the images are no longer changing when they should.
 
-![Image of bug](assets/images/img_bug.png)
+![Image of bug](assets/images/img-bug.png)
 
 To fix this I correct I changed all of the Javascript code that interacts with the changed html element ID to the correct tag name as seen below.
 
-![Image of bug fix](assets/images/img_bug_fix.png)
+![Image of bug fix](assets/images/img-bug-fix.png)
 
 ## Remaining bugs
 
@@ -166,7 +166,7 @@ There are no known remaining bugs
 
 I got the colour scheme from [this website as seen below](http://www.sussex.ac.uk/tel/resource/tel_website/accessiblecontrast/?q=FFFFFF~003b49~1d4289~94a596~e56db1~d3273e~00bfb2~d6d2c4~ffc845~dc582a~41b6e6~1b365d~be84a3~5d3754~7da1c4~f2c75c~d0d3d4~007a78~000000)
 
-![Image of colour pallette](assets/images/colour_pallette.png)
+![Image of colour pallette](assets/images/colour-pallette.png)
 
 The favicon icon was sourced from [this website](https://icons8.com/icons/set/favicon)
 
